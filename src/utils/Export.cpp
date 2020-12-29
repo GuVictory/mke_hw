@@ -41,7 +41,7 @@ void fileExport(const Triangulation& t, const Vec& values)
 {
 
     std::ofstream out;
-    out.open("result.dat");
+    out.open("result.mv");
 
     auto m = t.nodes().size();
     auto n = t.triangles().size();
